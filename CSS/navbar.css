@@ -1,0 +1,19 @@
+.navbar{
+    float: left;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover:not(.active){
+    background-color: black;
+}
+.active{
+    background-color: #04aa6d;
+}
