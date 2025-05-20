@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: center;  /* Centra els elements horitzontalment */
+    align-items: center;      /* Centra els elements verticalment */
+    width: 100%;
+    list-style: none;
+    background-color: rgb(255, 112, 112);
+}
+
+.navbar li a {
+    display: block;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: rgb(255, 87, 87);
+}
+
+.active {
+    background-color: rgb(255, 147, 147);
+}

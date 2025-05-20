@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body {
+    font-family: 'sansation';
+}
+.item1{
+    font-size: xx-large;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.item2{
+    font-size: large;
+    margin-top: 2em;
+    text-align: justify;
+    margin-left:  8em;
+    margin-right:  8em; 
+}
+
+.item3 {
+    margin-top: 15px ;
+    margin-left:  8em;
+    margin-right:  8em;
+    width: 100px;
+}
+img:hover {
+    width: 150px;
+}

@@ -1,0 +1,33 @@
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mySlides {
+    display: none; /* Todas las imágenes están ocultas por defecto */
+    width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+}
+
+.w3-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.w3-display-left {
+    left: 10px;
+}
+
+.w3-display-right {
+    right: 10px;
+}
