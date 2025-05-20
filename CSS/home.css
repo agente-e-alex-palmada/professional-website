@@ -1,5 +1,77 @@
-.topbar{
-    font-family: sans-serif;
-    font-size: medium;
-    position: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body {
+    font-family: 'sansation';
+}
+.main-content {
+    padding: 40px;
+    background: linear-gradient(to bottom, #fefcea, #f1f1f1);
+    flex-grow: 1;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Hero section */
+.item1 {
+    background-color: rgb(255, 112, 112);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.item1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.item1 p {
+    font-size: 1.2rem;
+}
+
+/* Intro section */
+.item2 {
+    margin-bottom: 40px;
+}
+
+.item2 h2 {
+    color: #2a75bb;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.item2 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Botons */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.button {
+    background-color: #2a75bb;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1b4d8a;
+}
+
+/* Cita */
+.quote {
+    margin-top: 40px;
+    padding: 20px;
+    border-left: 5px solid #2a75bb;
+    background-color: #fff;
+    font-style: italic;
+    color: #444;
 }
