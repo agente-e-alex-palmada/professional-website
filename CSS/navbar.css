@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'sansation';
+    background: linear-gradient(#fefcea);
+}
+
 .navbar {
     display: flex;
-    justify-content: center;  /* Centra els elements horitzontalment */
-    align-items: center;      /* Centra els elements verticalment */
-    width: 100%;
-    list-style: none;
+    justify-content: center;      /* Centra horizontalment */
+    align-items: center;          /* Centra verticalment */
+    margin: 0;                    /* Elimina marges per defecte */
+    width: 100%;                  /* Ocupa tot l'ample disponible */
+    list-style: none;             /* Elimina els punts de la llista */
     background-color: rgb(255, 112, 112);
+    flex-wrap: wrap;              /* Permet que es trenqui en línies si és massa ample */
+    box-sizing: border-box;       /* Inclou padding en el càlcul del width */
+    padding: 0px;
 }
 
 .navbar li a {
