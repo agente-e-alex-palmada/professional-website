@@ -1,9 +1,10 @@
-.navbar{
+.navbar {
     display: flex;
+    justify-content: center;  /* Centra els elements horitzontalment */
+    align-items: center;      /* Centra els elements verticalment */
     width: 100%;
     list-style: none;
     background-color: rgb(255, 112, 112);
-    position: fixed;
 }
 
 .navbar li a {
@@ -12,11 +13,13 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: solid;
 }
-.navbar li a:hover:not(.active){
+
+.navbar li a:hover:not(.active) {
     background-color: rgb(255, 87, 87);
 }
-.active{
+
+.active {
     background-color: rgb(255, 147, 147);
 }
