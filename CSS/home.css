@@ -29,15 +29,23 @@
     margin-bottom: 40px;
 }
 
-.item2 h2 {
+h2 {
     color: #2a75bb;
     font-size: 2rem;
-    margin-bottom: 10px;
+
+    padding-right: 40px;
+    padding-top: 40px;
+    max-width: 1200px;
 }
 
-.item2 p {
-    font-size: 1rem;
-    margin-bottom: 20px;
+.item2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+
 }
 
 /* Botons */
@@ -68,5 +76,26 @@
     border-left: 5px solid #2a75bb;
     background-color: #fff;
     font-style: italic;
-    color: #444;
+            color: #444;
+}
+
+.fotoDesc {
+    flex: 1 1 300px;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    height: auto;
+}
+
+
+.description {
+    flex: 2 1 600px;
+    max-width: 800px;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.item3{
+    padding-left: 40px;
 }
